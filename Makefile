@@ -33,5 +33,5 @@ cppcheck:
 	cat build/cppcheck-out.txt
 
 valgrind:
-	valgrind --leak-check=full --log-file=build/valgrind-out.txt ./build/$(day)/$(day)
+	valgrind --leak-check=full --show-leak-kinds=all --log-file=build/valgrind-out.txt ./build/$(day)/$(day)
 	cat build/valgrind-out.txt
