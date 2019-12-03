@@ -7,3 +7,4 @@ message(STATUS "Using C++ Compiler: ${CMAKE_CXX_COMPILER}")
 message(STATUS "Using C Compiler: ${CMAKE_C_COMPILER}")
 
 add_subdirectory(day1)
+add_subdirectory(day2)
